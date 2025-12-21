@@ -1,0 +1,47 @@
+{
+  "name": "shorturl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx prisma generate && tsx watch src/server.ts",
+    "build": "npx prisma generate && tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@prisma/client": "^6.19.0",
+    "@types/cookie-parser": "^1.4.10",
+    "@types/swagger-ui-express": "^4.1.8",
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "prisma": "^6.19.0",
+    "qrcode": "^1.5.4",
+    "swagger-ui-express": "^5.0.1",
+    "tsx": "^4.21.0",
+    "ua-parser-js": "^2.0.6",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^24.10.1",
+    "@types/qrcode": "^1.5.6",
+    "@types/swagger-jsdoc": "^6.0.4",
+    "@types/ua-parser-js": "^0.7.39",
+    "nodemon": "^3.1.11",
+    "swagger-jsdoc": "^6.2.8",
+    "typescript": "^5.9.3"
+  }
+}

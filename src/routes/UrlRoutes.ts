@@ -9,8 +9,10 @@ import {
   deleteUrl,
 } from "../controllers/url.controller.js";
 
+
 export const urlRoute = Router();
 
+urlRoute.get("/:shortCode", redirect);
 
 urlRoute.post("/ShortUrlCreation", GeneralAuth, createShortUrl);
 

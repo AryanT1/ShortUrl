@@ -18,7 +18,7 @@ The ShortUrl API offers a complete solution for managing and tracking shortened 
     *   Referrer tracking
     *   Clicks over time
 *   **URL Management:** Full CRUD (Create, Read, Update, Delete) functionality for managing shortened links, including activation/deactivation.
-*   **API Documentation:** Built-in **Swagger UI** for easy exploration and testing of all API endpoints.
+
 
 ## 💻 Tech Stack
 

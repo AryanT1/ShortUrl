@@ -33,7 +33,7 @@ The project is built with the following technologies:
 | **Authentication** | JWT, `bcrypt` | Secure user authentication and password hashing. |
 | **Validation** | `zod` | Schema declaration and validation library for robust input handling. |
 | **Utilities** | `qrcode`, `ua-parser-js` | Used for QR code generation and parsing user agent strings for analytics. |
-| **Documentation** | `swagger-jsdoc`, `swagger-ui-express` | Generates and serves interactive API documentation. |
+
 
 ## ⚙️ Data Model
 
